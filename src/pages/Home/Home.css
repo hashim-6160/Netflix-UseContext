@@ -1,0 +1,119 @@
+.maincont {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  padding: 20px;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+.navbar .nav-links {
+  display: flex;
+}
+
+.navbar .nav-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .nav-links a:hover {
+  color: #e50914;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/hero_banner.jpg") no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.content {
+  padding: 20px;
+}
+
+.section {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.section h2 {
+  font-size: 2em;
+  margin: 20px 0 10px 0;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: white;
+}
+
+.search-bar input::placeholder {
+  color: #aaa;
+}
+
+.search-bar input:focus {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-links a {
+    margin: 0 5px;
+  }
+
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .hero p {
+    font-size: 1.2em;
+  }
+
+  .section h2 {
+    font-size: 1.5em;
+  }
+
+  .search-bar input {
+    width: 150px;
+  }
+}

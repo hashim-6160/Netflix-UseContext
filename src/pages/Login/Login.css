@@ -1,0 +1,118 @@
+body {
+  background-color: #141414;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../../assets/background_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+header .logo {
+  margin: 20px 0;
+  width: 150px;
+}
+
+.signup-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 50px 55px 35px;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.65);
+  text-align: center;
+}
+
+.signup-container h1 {
+  margin-bottom: 28px;
+}
+
+.input-group {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #333;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 24px 0;
+  background-color: #e50914;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f40612;
+}
+
+.help {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.help a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.help a:hover {
+  text-decoration: underline;
+}
+
+.signin-now {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.signin-now a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.signin-now a:hover {
+  text-decoration: underline;
+}
+
+.recaptcha {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.recaptcha a {
+  color: #0071eb;
+  text-decoration: none;
+}
+
+.recaptcha a:hover {
+  text-decoration: underline;
+}

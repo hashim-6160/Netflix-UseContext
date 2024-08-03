@@ -1,0 +1,37 @@
+.content {
+  padding: 20px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px;
+  flex: 0 0 auto;
+  width: 200px;
+}
+
+.row img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.row li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
